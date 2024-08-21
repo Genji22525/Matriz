@@ -15,10 +15,10 @@ public class Executora {
 
 
         if (j == colunas - 1) {
-            System.out.println();  // Quebra de linha
-            exibirMatrizRecursivamente(matriz, i + 1, 0);  // Vai para a próxima linha
+            System.out.println();  
+            exibirMatrizRecursivamente(matriz, i + 1, 0);  
         } else {
-            exibirMatrizRecursivamente(matriz, i, j + 1);  // Continua na mesma linha
+            exibirMatrizRecursivamente(matriz, i, j + 1);  
         }
     }
 }
